@@ -1,0 +1,55 @@
+ <!DOCTYPE html>
+<html>
+	<head>
+		<title>for the motherland</title>
+		<link rel='icon' href='images/favicon.png' type='image/x-icon'/ >
+		<style>
+			body {
+				background-color: #efffff;
+			}
+		</style>
+	</head>
+	<body>
+		<img src="images/FINDR.png" width="1500" height="650">
+		<h1 title="Welcome!" style="text-align:center;">Welcome to Findr!</h1>
+		<hr>
+		<br>
+		<p title="">This is a platform for those who require assistnce with lost objects or people. This includes pets, money, missing people, and more.</p>
+		<br><br><br><br><br>
+		<p>Give details and item(s) you have lost below:</p>
+		<form action = "php/submitform.php" method = "get">
+	        <fieldset>
+	        	<legend>Details</legend>
+	        		<p>
+	        			<label>Name</label>
+	        			<input type = "text"
+	                		name = "myText" id = "myText"
+	                		value = "" />
+	        		</p>
+	        		<p>
+			        	<label>Email</label>
+			        	<input type = "text"
+			                  name = "myEmail" id = "myEmail"
+			                  value = "" />
+			        </p>
+			        <p>
+			        	<label>Missing Item Name</label>
+			        	<input type = "text" name = "myItem" id = "myItem" />
+			        </p>
+	        		<p>
+	          			<label>Additional Notes</label>
+	        			<textarea name = "myTextArea" id = "myTextArea"
+	                  	rows = "3"
+	                  	cols = "80"></textarea>
+	        		</p>
+	        		<input type="submit" value = "Submit">
+      		</fieldset>
+    	</form>
+    	<br><br><br><br><br><br><br>
+    	<p>
+
+
+
+    	</p>
+	</body>
+</html>
